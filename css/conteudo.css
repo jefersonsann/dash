@@ -1,0 +1,24 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo_item {
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  height: 500px;
+  color: var(--clr-text);
+  background-color: var(--bgSoft);
+  border-radius: 20px;
+
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.conteudo_item.active {
+  display: flex;
+}

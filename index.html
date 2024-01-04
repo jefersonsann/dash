@@ -12,116 +12,128 @@
   </head>
   <body>
     <div class="app">
-      <aside>
-        <header>
-          <div class="logo">
-            <h1>Dash</h1>
+      <div class="aside">
+        <aside>
+          <header>
+            <div class="logo">
+              <a href="/">Dash</a>
+            </div>
+          </header>
+          <div class="tools">
+            <h3>Admin tools</h3>
+            <ul>
+              <a class="tools_item active" href="#geral">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Geral
+                </li>
+              </a>
+              <a class="tools_item" href="#produtos">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Produtos
+                </li>
+              </a>
+              <a class="tools_item" href="#campanhas">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Campanhas
+                </li>
+              </a>
+              <a class="tools_item" href="#horarios">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Horários
+                </li>
+              </a>
+              <a class="tools_item" href="#pagamentos">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Pagamentos
+                </li>
+              </a>
+              <a class="tools_item" href="#declaracao">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Declaração
+                </li>
+              </a>
+              <a class="tools_item" href="#configuracoes">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Configurações
+                </li>
+              </a>
+            </ul>
           </div>
-        </header>
-        <div class="tools">
-          <h3>Admin tools</h3>
-          <ul>
-            <a class="tools_item" href="#geral">
-              <li>
-                <span class="material-symbols-rounded"> overview </span>
-                Geral
-              </li>
-            </a>
-            <a class="tools_item" href="#produtos">
-              <li>
-                <span class="material-symbols-rounded"> local_mall </span>
-                Produtos
-              </li>
-            </a>
-            <a class="tools_item" href="#campanhas">
-              <li>
-                <span class="material-symbols-rounded"> monitoring </span>
-                Campanhas
-              </li>
-            </a>
-            <a class="tools_item" href="#horarios">
-              <li>
-                <span class="material-symbols-rounded"> explore </span>
-                Horários
-              </li>
-            </a>
-            <a class="tools_item" href="#pagamentos">
-              <li>
-                <span class="material-symbols-rounded">
-                  account_balance_wallet
-                </span>
-                Pagamentos
-              </li>
-            </a>
-            <a class="tools_item" href="#declaração">
-              <li>
-                <span class="material-symbols-rounded"> list_alt </span>
-                Declaração
-              </li>
-            </a>
-            <a class="tools_item" href="#configurações">
-              <li>
-                <span class="material-symbols-rounded"> settings </span>
-                Configurações
-              </li>
-            </a>
-          </ul>
-        </div>
-        <div class="linha"></div>
-        <div class="insights">
-          <h3>Insights</h3>
-          <ul>
-            <a class="tools_item" href="#caixadeentrada">
-              <li>
-                <span class="material-symbols-rounded"> inbox </span>
-                Caixa de entrada
-              </li>
-            </a>
-            <a class="tools_item" href="notificacao">
-              <li>
+          <div class="linha"></div>
+          <div class="insights">
+            <h3>Insights</h3>
+            <ul>
+              <a class="tools_item" href="#caixadeentrada">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Caixa de entrada
+                </li>
+              </a>
+              <a class="tools_item" href="#notificacao">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Notificação
+                </li>
+              </a>
+              <a class="tools_item" href="#comentarios">
+                <li>
+                  <span class="material-symbols-rounded"> </span>
+                  Comentários
+                </li>
+              </a>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <div class="main">
+        <main>
+          <div class="navBar">
+            <div class="nav_left">
+              <h2>Hi, John.</h2>
+              <h1 class="pageName">Geral</h1>
+            </div>
+            <div class="nav_right">
+              <div class="search">
+                <label for="search"
+                  ><span class="material-symbols-rounded"> search </span></label
+                >
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search"
+                />
+              </div>
+              <a href="#notificacao" class="notfication">
                 <span class="material-symbols-rounded"> notifications </span>
-                Notificação
-              </li>
-            </a>
-            <a class="tools_item" href="comentarios">
-              <li>
-                <span class="material-symbols-rounded"> chat </span>
-                Comentários
-              </li>
-            </a>
-          </ul>
-        </div>
-      </aside>
-      <main>
-        <div class="navBar">
-          <div class="nav_left">
-            <h2>Hi, John.</h2>
-            <h1>Page name</h1>
-          </div>
-          <div class="nav_right">
-            <div class="search">
-              <label for="search"
-                ><span class="material-symbols-rounded"> search </span></label
-              >
-              <input
-                type="search"
-                name="search"
-                id="search"
-                placeholder="Search"
-              />
-            </div>
-            <div class="notfication">
-              <span class="material-symbols-rounded"> notifications </span>
-              <div class="notify_count">2</div>
+                <div class="notify_count">2</div>
+              </a>
             </div>
           </div>
-        </div>
-        <div class="banner">
-          <h1>Dash ...board</h1>
-          <p>Create your produsct dashboard in minutes</p>
-          <button>New Schedule</button>
-        </div>
-      </main>
+          <div class="banner">
+            <h1>Dash ...board</h1>
+            <p>Create your produsct dashboard in minutes</p>
+            <button>New Schedule</button>
+          </div>
+          <div class="conteudo">
+            <div class="conteudo_item active" id="geral">geral</div>
+            <div class="conteudo_item" id="produtos">produtos</div>
+            <div class="conteudo_item" id="campanhas">campanhas</div>
+            <div class="conteudo_item" id="horarios">horarios</div>
+            <div class="conteudo_item" id="pagamentos">pagamentos</div>
+            <div class="conteudo_item" id="declaracao">declaração</div>
+            <div class="conteudo_item" id="configuracoes">configurações</div>
+          </div>
+        </main>
+      </div>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -10,6 +10,7 @@
   --clr-textSoft: #5e6066;
   --clr-secondary: #6d5dd3;
   --clr-notfi: #ff744f;
+  --aside: 280px;
 }
 
 * {
@@ -32,9 +33,10 @@ li {
 body {
   color: var(--clr-text);
   background-color: var(--bg);
+  overflow: hidden;
 }
 
 .app {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: var(--aside) 1fr;
 }

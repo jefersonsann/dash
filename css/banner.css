@@ -3,3 +3,24 @@
   background-color: var(--clr-secondary);
   border-radius: 20px;
 }
+
+.banner p {
+  color: var(--clr-text);
+  opacity: 0.5;
+}
+
+.banner button {
+  color: var(--clr-text);
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
+  background-color: var(--bg);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner button:hover {
+  transform: scale(1.1);
+}

@@ -1,9 +1,14 @@
 @import url('navBar.css');
 @import url('banner.css');
+@import url('conteudo.css');
 
 main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 2rem;
+  margin: 2rem 4rem;
+}
+
+.main {
+  width: 100%;
 }

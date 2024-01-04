@@ -1,4 +1,6 @@
 aside {
+  position: fixed;
+  width: var(--aside);
   padding: 1rem;
   min-height: 100dvh;
   border-right: 1px solid var(--clr-textSoft);
@@ -14,6 +16,7 @@ aside h3 {
 aside ul {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 aside a {
@@ -23,7 +26,8 @@ aside a {
 }
 
 aside a:hover,
-aside a.active {
+aside a.active,
+.tools_item.active {
   color: var(--clr-text);
   background-color: var(--clr-secondary);
 }
@@ -37,11 +41,11 @@ aside li {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .tools_item {
   color: var(--clr-textSoft);
-  padding: 1rem;
 }
 
 .icon {
@@ -58,4 +62,5 @@ aside li {
   height: 1px;
   background-color: var(--clr-textSoft);
   margin: 3rem 0rem 4rem;
+  opacity: 0.5;
 }
