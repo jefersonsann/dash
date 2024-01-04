@@ -1,0 +1,9 @@
+@import url('navBar.css');
+@import url('banner.css');
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+}

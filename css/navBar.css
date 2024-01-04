@@ -1,0 +1,49 @@
+.navBar {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.nav_left h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.search,
+.nav_right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search input {
+  color: var(--clr-text);
+  padding: 0.4rem;
+  background: none;
+  border: none;
+}
+
+.notfication {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 1rem;
+  background-color: var(--clr-secondary);
+  border-radius: 50%;
+}
+
+.notify_count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background-color: var(--clr-notfi);
+  border-radius: 50%;
+}

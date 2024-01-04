@@ -1,0 +1,5 @@
+.banner {
+  padding: 3rem;
+  background-color: var(--clr-secondary);
+  border-radius: 20px;
+}

@@ -1,6 +1,7 @@
 /* @import 'logo.css'; */
 @import url('logo.css');
 @import url('aside.css');
+@import url('main.css');
 
 :root {
   --bg: #202028;
